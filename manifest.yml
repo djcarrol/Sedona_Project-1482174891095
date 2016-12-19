@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Sedona_Project
+  host: SedonaProject
+  disk_quota: 1024M
+  services:
+  - Sedona_Project-cloudantNoSQLDB
